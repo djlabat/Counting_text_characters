@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="Brojanje_slova_u_tekstu.css">
+  <title>Brojanje slova u tekstu</title>
+</head>
+
+<body>
+  <p id="lang">
+    <a href="../eng/Counting_text_characters.html"><img src="../united-kingdom.png" alt="English" width="25px"></a>
+  </p>
+  <h1>BROJANJE SLOVA</h1>
+  <p>Ukucajte slovo koje želite da se broji: <span><input type="text" id="ts" maxlength="1" size="1" placeholder="unesi"></span> <button onclick="brojanjeSlova()">Izbroj slova</button>  <span  id="output"></span>
+</p>
+
+  <textarea id="txt" cols="60" rows="10" placeholder="Uneti tekst koji će da se pretražuje">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat quaerat quod recusandae vel placeat. Modi quia ipsam perferendis consectetur totam saepe facilis nisi sunt, itaque similique voluptas minima, at autem aliquid eaque tempore ducimus debitis. Excepturi odit voluptate recusandae perferendis, accusantium debitis quia, iure incidunt unde et veritatis reiciendis quisquam tempora. Quis laudantium dicta ad possimus obcaecati ut quibusdam minus. Velit a dolore, ipsa dolorum facere quis esse voluptas voluptatum dicta. Saepe aspernatur reprehenderit molestias quo. Nulla ducimus accusamus ipsum ipsam vero, autem reprehenderit alias atque obcaecati nostrum odit nobis eligendi? Aliquam non minus unde commodi laudantium! Voluptatem, id rem?</textarea>
+  <br>
+  
+  <br><br>
+  
+  <button onclick="listaKolicineSlova()">Lista kolicine svih slova</button>
+  <br><br>
+  <table id="tab">
+    <th><tr><td>slovo</td><td>Kolicina</td></tr></th>
+  </table>
+  <script src="Brojanje_slova_u_tekstu.js"></script>
+</body>
+
+</html>

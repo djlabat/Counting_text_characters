@@ -1,0 +1,30 @@
+body ,input, table, textarea {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+	background-color:darkslategrey;
+	color: white;
+}
+p#lang {text-align: right;}
+h1 {
+	text-decoration: underline;
+}
+button{
+	background-color: gray;
+	color: black;
+	outline-width: wheat;
+}
+
+button:focus {
+	outline-width: 0;
+}
+
+table, td {
+	width: 20%;
+	outline: solid 1px white;
+	margin: auto;
+}
+
+#tabh {
+	background-color: black;
+	color: white;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="Counting_text_characters.css">
+  <title>Brojanje slova u tekstu</title>
+</head>
+
+<body>
+  <p id="lang">
+    <a href="../ser/Brojanje_slova_u_tekstu.html"><img src="../serbia.png" alt="Srpski" width="25px"></a>
+  </p>
+  <h1>CHARACTER COUNTING</h1>
+  <p>Enter the character you wish to count: <span><input type="text" id="ts" maxlength="1" size="1" placeholder="enter"></span> <button onclick="characterCounting()">Charter count</button>  <span  id="output"></span>
+</p>
+
+  <textarea id="txt" cols="60" rows="10" placeholder="Enter the text you wish serach">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat quaerat quod recusandae vel placeat. Modi quia ipsam perferendis consectetur totam saepe facilis nisi sunt, itaque similique voluptas minima, at autem aliquid eaque tempore ducimus debitis. Excepturi odit voluptate recusandae perferendis, accusantium debitis quia, iure incidunt unde et veritatis reiciendis quisquam tempora. Quis laudantium dicta ad possimus obcaecati ut quibusdam minus. Velit a dolore, ipsa dolorum facere quis esse voluptas voluptatum dicta. Saepe aspernatur reprehenderit molestias quo. Nulla ducimus accusamus ipsum ipsam vero, autem reprehenderit alias atque obcaecati nostrum odit nobis eligendi? Aliquam non minus unde commodi laudantium! Voluptatem, id rem?</textarea>
+  
+  <br><br><br>
+
+  <button onclick="characterAmountList()">Amount-list of all characters</button>
+  <br><br>
+  <table>
+    <th><tr><td>characters</td><td>Amount</td></tr></th>
+  </table>
+  <script src="Counting_text_characters.js"></script>
+</body>
+
+</html>
